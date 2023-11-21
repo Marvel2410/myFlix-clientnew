@@ -1,0 +1,28 @@
+.navbar {
+  z-index: 1;
+  background-color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
