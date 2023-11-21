@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  .spacer {
+    height: 40px; // Adjust this value as needed for the desired space
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .col-md-6 {
+      padding: 10px;
+      text-align: left;
+      margin-right: 20px;
+
+      .img-fluid {
+        max-width: 50%;
+        height: auto;
+        display: block;
+        margin: 0 auto; // Centers the image within its column
+        margin-top: 20px;
+        border: 2px solid white;
+        border-radius: 8px;
+      }
+
+      span {
+        font-weight: bold;
+        font-size: 1.2em;
+        color: white;
+      }
+    }
+
+
+  }
+}
+
+.button {
+  margin-top: 10px; // Adjust the margin between the image and the button
+}
