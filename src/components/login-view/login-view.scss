@@ -1,0 +1,54 @@
+body,
+html {
+  background-color: #000;
+  height: 100%;
+  margin: 0;
+}
+
+.myflix-logo {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-card {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.spacer {
+  height: 10px;
+}
+
+
+
+.form-group {
+  margin-top: 10px;
+}
+
+.login-button {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.signup-link {
+  color: #007bff;
+  text-decoration: none;
+}
